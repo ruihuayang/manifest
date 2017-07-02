@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="dtv"  fetch="http://isc01.css.socionext.com/repos/01dtvdist1/git" />
+  <remote  name="test"  fetch="https://github.com/ruihuayang/manifest.git" />
 <!-- <remote  name="bsp"  fetch="http://isc01.css.socionext.com/repos/common_swd/git" /> -->
 
   <default revision="master" />
 
-  <project remote="dtv"  path="sc1400"                      name="ld20_ld11-sol.sc1400" />
-  <project remote="dtv"  path="sc1400/usr/src/boot/u-boot"  name="git_bsp.u-boot"       revision="unph-master" />
-  <project remote="dtv"  path="sc1400/usr/src/boot/rom-api" name="git_bsp.rom-api"      />
-  <project remote="dtv"  path="sc1400/usr/src/opengles"     name="git_bsp.opengles"     />
-  <project remote="dtv"  path="sc1400/usr/src/openmax"      name="git_bsp.openmax"      />
-  <project remote="dtv"  path="sc1400/usr/src/openmax-veri" name="git_bsp.openmax-veri" />
-  <project remote="dtv"  path="sc1400/usr/src/kmod"         name="git_bsp.kmod"         />
-  <project remote="dtv"  path="sc1400/usr/src/libvio"       name="git_bsp.libvio"       />
-  <project remote="dtv"  path="sc1400/usr/src/vioutils"     name="git_bsp.vioutils"     />
-  <project remote="dtv"  path="sc1400/usr/src/firmware"     name="git_bsp.firmware"     />
-  <project remote="dtv"  path="sc1400/usr/src/dbgutils"     name="git_bsp.dbgutils"     />
-  <project remote="dtv"  path="sc1400/usr/src/libaq"        name="git_bsp.libaq"        />
-  <project remote="dtv"  path="sc1400/usr/src/libpq"        name="git_bsp.libpq"        />
-  <project remote="dtv"  path="sc1400/usr/src/avx"          name="git_bsp.avx"          />
-  <project remote="dtv"  path="sc1400/usr/src/dtv16"        name="dtv16"                />
+  <project remote="test"  path="aa"         name="aa" />
+  <project remote="test"  path="bb"         name="bb"        />
+  <project remote="test"  path="cc/dd"      name="cc/dd"      />
 </manifest>
