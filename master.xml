@@ -9,7 +9,7 @@
  
  <default revision="master" />
 
-  <project remote="aa"  path="aa"         name="aa" />
-  <project remote="bb"  path="bb"         name="bb"        />
-  <project remote="dd"  path="cc/dd"      name="cc/dd"      />
+  <project remote="aa"  path="aa"         name="aa" remote="aa" />
+  <project remote="bb"  path="bb"         name="bb" remote="bb"       />
+  <project remote="dd"  path="cc/dd"      name="dd" remote="dd"     />
 </manifest>
