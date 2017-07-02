@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="test"  fetch="https://github.com/ruihuayang/manifest.git" />
+  <remote  name="aa"  fetch="https://github.com/ruihuayang/aa.git" />
 <!-- <remote  name="bsp"  fetch="http://isc01.css.socionext.com/repos/common_swd/git" /> -->
 
-  <default revision="master" />
 
-  <project remote="test"  path="aa"         name="aa" />
-  <project remote="test"  path="bb"         name="bb"        />
-  <project remote="test"  path="cc/dd"      name="cc/dd"      />
+  <remote  name="bb"  fetch="https://github.com/ruihuayang/bb.git" />
+  <remote  name="dd"  fetch="https://github.com/ruihuayang/dd.git" />
+ 
+ <default revision="master" />
+
+  <project remote="aa"  path="aa"         name="aa" />
+  <project remote="bb"  path="bb"         name="bb"        />
+  <project remote="dd"  path="cc/dd"      name="cc/dd"      />
 </manifest>
